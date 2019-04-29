@@ -1,4 +1,4 @@
-#ExpressJs FrontEnd Commands
+#ReactJs FrontEnd Commands
 
 ```sh
 #Install dependecies
