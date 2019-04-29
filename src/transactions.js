@@ -2,8 +2,9 @@ import React from 'react';
 import axios from 'axios';
 
 var Accordion = require('react-bootstrap').Accordion;
-var Panel = require('react-bootstrap').Panel;   
 var Card = require('react-bootstrap').Card;   
+
+const API_URI = 'http://localhost:8082/transactions';
 
 const title = 'Money Account System Front End';
 
@@ -16,7 +17,7 @@ export default class Transactions extends React.Component {
     }
 
     componentDidMount(){
-        axios.get('http://localhost:8082/transactions')
+        axios.get(API_URI)
             .then(res => {
                 this.setState({
                     transactions: res.data
