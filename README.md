@@ -1,2 +1,9 @@
-# money-account-system-frontend
-Money Account System Front End
+# ## ExpressJs FrontEnd Commands
+
+```sh
+#Install dependecies
+npm install
+
+#run Front End
+npm start
+```
